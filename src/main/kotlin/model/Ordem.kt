@@ -10,5 +10,5 @@ data class Ordem(
     val defeito: String,
     val observacoes: String,
     val data: LocalDate,
-    val numeroOS: Int = 0 // Adicione este campo
+    val numeroOS: Int = 0
 )
